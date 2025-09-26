@@ -39,7 +39,7 @@ tags:
   # - Medical Large Language Models
   - Multimodal Large Language Models
   - Mental Visualization
-  - Synthetic Benchmark
+  - Benchmarking
   # - Reinforcement Learning for Vision Language Models
 
 # Display this page in the Featured widget?

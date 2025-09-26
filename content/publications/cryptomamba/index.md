@@ -37,6 +37,7 @@ abstract: Predicting Bitcoin price remains a challenging problem due to the high
 
 tags:
   - Bitcoin
+  - Time series
   - Machine Learning
   - Cryptocurrency
   - State Space Models

@@ -30,11 +30,13 @@ tags:
 
 featured: false
 
-hugoblox:
-  ids:
-    arxiv: 2403.17902
+# hugoblox:
+#   ids:
+#     arxiv: 2403.17902
 
 links:
+- type: pdf
+  url: https://arxiv.org/pdf/2403.17902
 - type: code
   url: https://github.com/MShahabSepehri/Serpent
 

@@ -20,7 +20,7 @@ publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
 publication: "3rd Workshop on Generative Models for Computer Vision @ CVPR (2025)"
-publication_short: "GMCV @ ICML"
+publication_short: "GMCV @ CVPR"
 
 abstract: Current text-to-image (T2I) benchmarks evaluate models on rigid prompts, potentially underestimating true generative capabilities due to prompt sensitivity and creating biases that favor certain models while disadvantaging others. We introduce ConceptMix++, a framework that disentangles prompt phrasing from visual generation capabilities by applying iterative prompt optimization. Building on ConceptMix, our approach incorporates a multimodal optimization pipeline that leverages vision-language model feedback to refine prompts systematically. Through extensive experiments across multiple diffusion models, we show that optimized prompts significantly improve compositional generation performance, revealing previously hidden model capabilities and enabling fairer comparisons across T2I models. Our analysis reveals that certain visual concepts -- such as spatial relationships and shapes -- benefit more from optimization than others, suggesting that existing benchmarks systematically underestimate model performance in these categories. Additionally, we find strong cross-model transferability of optimized prompts, indicating shared preferences for effective prompt phrasing across models. These findings demonstrate that rigid benchmarking approaches may significantly underrepresent true model capabilities, while our framework provides more accurate assessment and insights for future development.
 
@@ -28,17 +28,19 @@ abstract: Current text-to-image (T2I) benchmarks evaluate models on rigid prompt
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Diffusion Model
+- Diffusion Models
 - Generative AI
 - Prompt Optimization
 
 featured: false
 
-hugoblox:
-  ids:
-    arxiv: 2507.03275
+# hugoblox:
+#   ids:
+#     arxiv: 2507.03275
 
 links:
+- type: pdf
+  url: https://arxiv.org/pdf/2507.03275
 - type: code
   url: https://github.com/MShahabSepehri/Serpent
 
